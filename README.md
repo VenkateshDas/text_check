@@ -1,6 +1,6 @@
 # Text Check
 
-A simple tool to validate your english text. Currently only supports grammar check for a provided text.
+A simple tool to validate your english text. Currently, supports grammar check for a provided text.
 
 # TO DO
 - Add test suite
