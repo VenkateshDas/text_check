@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - '8080:8080'
+    networks:
+      - tc_network
+    container_name: containerapi
+
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.app
+    volumes:
+      - .:/app
+    ports:
+      - '8501:8501'
+    networks:
+      - tc_network
+    container_name: containerapp
+    # experiments
+    # command: sh -c "/wait && streamlit run text_check/text_check_app.py"
+    # depends_on:
+    #   - api
+    # environment:
+    #   WAIT_HOSTS: api:8080
+    #   WAIT_TIMEOUT: 500
+    #   WAIT_SLEEP_INTERVAL: 100
+  
+networks:
+  tc_network:
+    driver: bridge

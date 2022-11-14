@@ -1,0 +1,14 @@
+.devcontainer/
+.github/
+docker/
+docs/
+images/
+scripts/
+.giattributes
+.gitignore
+.pre-commit-config.yml
+docker-compose.yml
+LICENSE
+README.md
+requirements-dev.txt
+.git
