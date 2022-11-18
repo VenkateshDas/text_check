@@ -19,7 +19,7 @@ jobs:
   check_reqs_change:
     name: Check if requirements.txt or requirements-freeze.txt is changed
     runs-on: ubuntu-latest
-    continue-on-error: false
+    continue-on-error: true
 
     steps:
       - name: Checkout Repo
@@ -30,7 +30,24 @@ jobs:
       
       - name: Check if requirements.txt is changed
         id: check_reqs_change
+        uses: tj-actions/verify-changed-files@v12
+        with:
+          files: |
+            requirements.txt
+            requirements-freeze.txt
+      
+      - name: Check if requirements-freeze.txt is changed
+        id: check_freeze_change
+        if: steps.check_reqs_change.outputs.files_changed == 'true'
         run: |
-          echo "Checking if requirements.txt is changed"
-          diff= git diff HEAD~1 HEAD requirements.txt
-          echo $diff
+          if contains(steps.check_reqs_change.outputs.files_changed, 'requirements-freeze.txt')
+            echo "::set-output name=freeze_changed::true"
+          else
+            echo "requirements-freeze.txt is not changed"
+            exit 1
+        
+        
+
+        
+
+
