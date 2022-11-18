@@ -40,6 +40,8 @@ jobs:
           if [ $req_freeze_diff!=1 ]; then
             echo "Requirements.txt was changed but requirements-freeze.txt was not changed"
             exit 1
+          else
+            echo "requirements.txt and requirements-freeze.txt was changed"
           fi
 
 
