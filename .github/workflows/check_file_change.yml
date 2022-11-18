@@ -31,10 +31,6 @@ jobs:
       - name: Check if requirements.txt is changed
         id: check_reqs_change
         uses: tj-actions/changed-files@v34
-        with:
-          files: |
-            requirements.txt
-            requirements-freeze.txt
       
       - name: Check if requirements-freeze.txt is changed
         id: check_freeze_change
