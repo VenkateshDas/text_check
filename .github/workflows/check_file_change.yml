@@ -1,0 +1,51 @@
+name: demo
+on:
+  push:
+    branches:
+        - 'main'
+    paths:
+        - "text_check/**" # check if any file in text_check folder is changed
+        - "requirements.txt" # check if requirements.txt is changed
+        - "requirements-freeze.txt" # check if requirements-freeze.txt is changed
+  pull_request:
+    branches:
+        - 'main'
+    paths:
+        - "text_check/**" # check if any file in text_check folder is changed
+        - "requirements.txt" # check if requirements.txt is changed
+        - "requirements-freeze.txt" # check if requirements-freeze.txt is changed
+
+jobs:
+  check_reqs_change:
+    name: Check if requirements.txt or requirements-freeze.txt is changed
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Checkout Repo
+        id: checkout_repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      
+      - name: Check if requirements.txt is changed
+        id: check_reqs_change
+        run: |
+          if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
+            echo "::set-output name=changed::true"
+            echo "requirements.txt is changed"
+          else
+            echo "::set-output name=changed::false"
+            echo "requirements.txt is not changed"
+          fi
+      
+      - name: Check if requirements-freeze.txt is changed
+        id: check_freeze_change
+        if: steps.check_reqs_change.outputs.changed == 'true'
+        run: |
+          if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements-freeze.txt") -gt 0 ]]; then
+            echo "requirements-freeze.txt is changed"
+          else
+            echo "requirements-freeze.txt is not changed"
+            exit 1
+          fi
