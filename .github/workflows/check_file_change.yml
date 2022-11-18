@@ -31,23 +31,4 @@ jobs:
       - name: Check if requirements.txt is changed
         id: check_reqs_change
         run: |
-          git diff HEAD~1 HEAD --no-patch --exit-code requirements.txt
-          if [ $? -eq 0 ]; then
-            echo "Requirements.txt is not changed"
-          else
-            echo "Requirements.txt is changed"
-          fi
-    
-      - name: check if requierements_freeze.txt is changed
-        if: steps.check_reqs_change.output.changed == true
-        run: |
-          req_freeze_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements-freeze.txt
-          if [ $req_freeze_diff!=1 ]; then
-            echo "Requirements.txt was changed but requirements-freeze.txt was not changed"
-            exit 1
-          else
-            echo "requirements.txt and requirements-freeze.txt was changed"
-          fi
-
-
-
+          echo "Checking if requirements.txt is changed"
