@@ -33,8 +33,10 @@ jobs:
         run: |
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
             echo "::set-output name=changed::true"
+            echo "requirements.txt is changed"
           else
             echo "::set-output name=changed::false"
+            echo "requirements.txt is not changed"
           fi
       
       - name: Check if requirements-freeze.txt is changed
