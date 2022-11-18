@@ -30,7 +30,7 @@ jobs:
       
       - name: Check if requirements.txt is changed
         id: check_reqs_change
-        uses: tj-actions/verify-changed-files@v12
+        uses: tj-actions/changed-files@v34
         with:
           files: |
             requirements.txt
@@ -38,10 +38,10 @@ jobs:
       
       - name: Check if requirements-freeze.txt is changed
         id: check_freeze_change
-        if: steps.check_reqs_change.outputs.files_changed == 'true'
+        if: contains(steps.check_reqs_change.outputs.all_changed_files, 'requirements.txt')
         run: |
-          if contains(steps.check_reqs_change.outputs.files_changed, 'requirements-freeze.txt')
-            echo "::set-output name=freeze_changed::true"
+          if contains(steps.check_reqs_change.outputs.all_changed_files, 'requirements-freeze.txt')
+            echo "requirements-freeze.txt is changed"
           else
             echo "requirements-freeze.txt is not changed"
             exit 1
