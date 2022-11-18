@@ -40,7 +40,7 @@ jobs:
         id: check_freeze_change
         if: contains(steps.check_reqs_change.outputs.all_changed_files, 'requirements.txt')
         run: |
-          if contains(steps.check_reqs_change.outputs.all_changed_files, 'requirements-freeze.txt')
+          if [[ "${{ steps.check_reqs_change.outputs.all_changed_files }}" ~= 'requirements-freeze.txt' ]]; then
             echo "requirements-freeze.txt is changed"
           else
             echo "requirements-freeze.txt is not changed"
