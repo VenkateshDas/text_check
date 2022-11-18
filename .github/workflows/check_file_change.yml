@@ -33,9 +33,9 @@ jobs:
         run: |
           git diff HEAD~1 HEAD --no-patch --exit-code requirements.txt
           if [ $? -eq 0 ]; then
-            echo "::set-output name=changed::false"
+            echo "Requirements.txt is not changed"
           else
-            echo "::set-output name=changed::true"
+            echo "Requirements.txt is changed"
           fi
     
       - name: check if requierements_freeze.txt is changed
