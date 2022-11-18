@@ -39,7 +39,7 @@ jobs:
           fi
     
       - name: check if requierements_freeze.txt is changed
-        if: steps.check_reqs_change.output.changed == 1
+        if: steps.check_reqs_change.output.changed == true
         run: |
           req_freeze_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements-freeze.txt
           if [ $req_freeze_diff!=1 ]; then
