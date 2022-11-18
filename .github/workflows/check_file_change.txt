@@ -30,20 +30,27 @@ jobs:
       
       - name: Check if requirements.txt is changed
         id: check_reqs_change
-        run: |
-          if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
-            echo "::set-output name=changed::true"
-          else
-            echo "::set-output name=changed::false"
-          fi
+        uses: tj-actions/changed-files@v34
       
       - name: Check if requirements-freeze.txt is changed
         id: check_freeze_change
-        if: steps.check_reqs_change.outputs.changed == 'true'
+        if: contains(steps.check_reqs_change.outputs.all_changed_files, 'requirements.txt')
         run: |
-          if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements-freeze.txt") -gt 0 ]]; then
+          for file in ${{ steps.check_reqs_change.outputs.all_changed_files }}; do
+            if [[ $file == "requirements-freeze.txt" ]]; then
+              req_freeze_changed=true
+              break
+            fi
+          done
+          if [[ $req_freeze_changed == true ]]; then
             echo "requirements-freeze.txt is changed"
           else
             echo "requirements-freeze.txt is not changed"
             exit 1
           fi
+        
+        
+
+        
+
+
