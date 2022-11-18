@@ -30,13 +30,14 @@ jobs:
         id: check_reqs_change
         run: |
           $req_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements.txt
-          if [ $req_diff==1 ]; then
-            # check if requirements-freeze.txt was changed and set it to a variable
-            $req_freeze_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements-freeze.txt
-            if [ $req_freeze_diff!=1 ]; then
-              echo "Requirements.txt was changed but requirements-freeze.txt was not changed"
-              exit 1
-            fi
+    
+      - name: check if requierements_freeze.txt is changed
+        if: steps.check_reqs_change.outputs.req_diff == 1
+        run: |
+          req_freeze_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements-freeze.txt
+          if [ $req_freeze_diff!=1 ]; then
+            echo "Requirements.txt was changed but requirements-freeze.txt was not changed"
+            exit 1
           fi
 
 
