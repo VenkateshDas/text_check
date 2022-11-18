@@ -32,5 +32,5 @@ jobs:
         id: check_reqs_change
         run: |
           echo "Checking if requirements.txt is changed"
-          git diff HEAD~1 HEAD --exit-code requirements.txt
-          echo "$?"
+          $diff = git diff HEAD~1 HEAD requirements.txt
+          echo $diff
