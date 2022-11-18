@@ -28,13 +28,18 @@ jobs:
         with:
           fetch-depth: 2
       
-      - name: Check if requirements.txt or requirements-freeze.txt is changed
+      - name: Check if requirements.txt is changed
         id: check_reqs_change
         run: |
-          req_diff= git diff HEAD HEAD~1 --no-patch --exit-code requirements.txt
+          git diff HEAD HEAD~1 --no-patch --exit-code requirements.txt
+          if [ $? -eq 0 ]; then
+            echo "::set-output name=changed::false"
+          else
+            echo "::set-output name=changed::true"
+          fi
     
       - name: check if requierements_freeze.txt is changed
-        if: steps.check_reqs_change.outputs.req_diff == 1
+        if: steps.check_reqs_change.outputs == 1
         run: |
           req_freeze_diff = git diff HEAD HEAD~1 --no-patch --exit-code requirements-freeze.txt
           if [ $req_freeze_diff!=1 ]; then
