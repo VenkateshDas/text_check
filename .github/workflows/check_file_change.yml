@@ -42,13 +42,16 @@ jobs:
         run: |
           for file in ${{ steps.check_reqs_change.outputs.all_changed_files }}; do
             if [[ $file == "requirements-freeze.txt" ]]; then
-              echo "requirements-freeze.txt is changed"
-            else
-              echo "requirements-freeze.txt is not changed"
-              exit 1
+              req_freeze_changed=true
+              break
             fi
           done
-
+          if [[ $req_freeze_changed == true ]]; then
+            echo "requirements-freeze.txt is changed"
+          else
+            echo "requirements-freeze.txt is not changed"
+            exit 1
+          fi
         
         
 
