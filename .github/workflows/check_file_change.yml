@@ -16,10 +16,10 @@ on:
         - "requirements-freeze.txt" # check if requirements-freeze.txt is changed
 
 jobs:
-  check_reqs_change:
-    name: Check if requirements.txt or requirements-freeze.txt is changed
+  check_reqs_changed:
+    name: Check if requirements.txt and requirements-freeze.txt were changed
     runs-on: ubuntu-latest
-    continue-on-error: true
+    continue-on-error: false
 
     steps:
       - name: Checkout Repo
@@ -28,8 +28,8 @@ jobs:
         with:
           fetch-depth: 2
       
-      - name: Check if requirements.txt is changed
-        id: check_reqs_change
+      - name: Check if requirements.txt was changed
+        id: check_reqs_changed
         run: |
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
             echo "::set-output name=changed::true"
@@ -39,13 +39,13 @@ jobs:
             echo "requirements.txt is not changed"
           fi
       
-      - name: Check if requirements-freeze.txt is changed
-        id: check_freeze_change
+      - name: Check if requirements-freeze.txt was changed
+        id: check_reqs_freeze_change
         if: steps.check_reqs_change.outputs.changed == 'true'
         run: |
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements-freeze.txt") -gt 0 ]]; then
-            echo "requirements-freeze.txt is changed"
+            echo "requirements-freeze.txt was changed"
           else
-            echo "requirements-freeze.txt is not changed"
+            echo "requirements-freeze.txt was not changed"
             exit 1
           fi
