@@ -32,10 +32,10 @@ jobs:
         id: check_reqs_changed
         run: |
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "CHANGED=true" >> $GITHUB_OUTPUT
             echo "requirements.txt is changed"
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "CHANGED=false" >> $GITHUB_OUTPUT
             echo "requirements.txt is not changed"
           fi
       
@@ -43,7 +43,7 @@ jobs:
         id: check_reqs_freeze_change
         # if: steps.check_reqs_change.outputs.changed == 'true'
         run: |
-          env
+          echo "${{ steps.check_reqs_changed.outputs.CHANGED }}"
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements-freeze.txt") -gt 0 ]]; then
             echo "requirements-freeze.txt was changed"
           else
