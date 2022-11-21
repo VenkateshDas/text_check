@@ -31,7 +31,9 @@ jobs:
       - name: Check if requirements.txt was changed
         id: check_reqs_changed
         run: |
-          if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements.txt") -gt 0 ]]; then
+        reqs_changed=(git diff HEAD HEAD~1 --no-patch --exit-code requirements.txt)
+        echo "$reqs_changed"
+          if [[ $reqs_changed -gt 0 ]]; then
             echo "CHANGED=true" >> $GITHUB_OUTPUT
             echo "requirements.txt was changed"
           else
