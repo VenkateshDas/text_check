@@ -41,8 +41,9 @@ jobs:
       
       - name: Check if requirements-freeze.txt was changed
         id: check_reqs_freeze_change
-        if: steps.check_reqs_change.outputs.changed == 'true'
+        # if: steps.check_reqs_change.outputs.changed == 'true'
         run: |
+          echo "steps.check_reqs_change.outputs.changed "
           if [[ $(git diff HEAD~1 HEAD --name-only | grep -c "requirements-freeze.txt") -gt 0 ]]; then
             echo "requirements-freeze.txt was changed"
           else
