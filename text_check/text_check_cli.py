@@ -31,5 +31,5 @@ def main(input_file_path: str = None, text: str = None):
 
 
 if __name__ == "__main__":
-    # TODO: use Fire to parse command line arguments
+    # TODO: use Fire for CLI
     main()
