@@ -1,0 +1,41 @@
+# Github workflow to update the rule database every day
+# This workflow is triggered on a schedule
+# The workflow will run the update_rule_db.py script
+# If there are files modified, then it will create a PR with the changes using the Create Pull Request action
+name: Update Rule Database
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+  
+jobs:
+  update_rule_db:
+    name: Update Rule Database
+    runs-on: ubuntu-latest
+    continue-on-error: false
+
+    steps:
+      # Setup Python 3.9
+      - name: Setup Python 3.9
+        id: python_setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Checkout Repo
+        id: checkout_repo
+        uses: actions/checkout@v3
+      
+      - name: Compare rule database files
+        id: compare_rule_db_files
+        run: |
+          pip install pandas
+          python text_check/rules/update_rule_db.py
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        if: steps.compare_rule_db_files.outputs.files_changed == 'True'
+        with:
+          commit-message: Update Rule Database
+          title: Automated Updates to Rule Database Files based on the changes in Google Sheet
+          body: This is an auto-generated PR with rule database updates.
+          branch: rule-db-updates
