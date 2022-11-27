@@ -2,15 +2,16 @@
 # This workflow is triggered on a schedule
 # The workflow will run the update_rule_db.py script
 # If there are files modified, then it will create a PR with the changes using the Create Pull Request action
-name: Update Rule Database
+name: Update Rule Database Every 10 Minutes
 on:
-  # schedule:
-  #   - cron:  '*/5 * * * *'
-  push:
-    branches:
-        - 'main'
-    paths:
-        - "text_check/**" # check if any file in text_check folder is changed
+  schedule:
+    - cron:  '*/10 * * * *'
+  # push:
+  #   branches:
+  #       - 'main'
+  # pull_request:
+  #   branches:
+  #       - 'main'
 
 jobs:
   update_rule_db:
@@ -37,10 +38,11 @@ jobs:
           python text_check/rules/update_rule_db.py
           
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
         if: steps.compare_rule_db_files.outputs.files_changed == 'True'
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Update Rule Database
           title: Automated Updates to Rule Database Files based on the changes in Google Sheet
           body: This is an auto-generated PR with rule database updates.
+          base: main
           branch: rule-db-updates

@@ -6,10 +6,10 @@ After making the necessary changes to rules.csv and examples.csv, the script wil
 This will run the github action to update the rule database in the github repository and create a pull request.
 '''
 
-# TODO: Connect to google sheets and download the latest rule database
 # TODO: Compare the local rule database with the google sheets rule database. If there are changes then update the local rule database (rules.csv and examples.csv).
  
 import pandas as pd
+import os
 
 
 def download_from_google_sheets(sheet_id, sheet_name):
@@ -38,8 +38,8 @@ def main():
     examples_sheet_name = "rule_examples_v2"
     new_rules_df = download_from_google_sheets(sheet_id, rules_sheet_name)
     new_examples_df = download_from_google_sheets(sheet_id, examples_sheet_name)
-    old_rules_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/rules.csv")
-    old_examples_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/examples.csv")
+    old_rules_df = pd.read_csv("text_check/configs/rules.csv")
+    old_examples_df = pd.read_csv("text_check/configs/examples.csv")
     # compare rules df
     is_rules_updated = update_df(old_rules_df, new_rules_df, "text_check/configs/rules.csv")
     # compare examples df
@@ -49,7 +49,8 @@ def main():
         files_changed = True
     else:
         files_changed = False
-    print(f"files_changed: {files_changed} >> $GITHUB_OUTPUT")
+    with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+        print(f'files_changed={files_changed}', file=f)
 
 
 if __name__ == "__main__":
