@@ -4,9 +4,14 @@
 # If there are files modified, then it will create a PR with the changes using the Create Pull Request action
 name: Update Rule Database
 on:
-  schedule:
-    - cron:  '*/5 * * * *'
-  
+  # schedule:
+  #   - cron:  '*/5 * * * *'
+  push:
+    branches:
+        - 'main'
+    paths:
+        - "text_check/**" # check if any file in text_check folder is changed
+
 jobs:
   update_rule_db:
     name: Update Rule Database
