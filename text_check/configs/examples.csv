@@ -222,7 +222,7 @@ E0221,R0181,"To whom it may concern in your company, here is a copy of our roadm
 E0222,R0184,I've sent you an email requesting a meeting,Is this something that is currently on top of your mind?,Take it slow
 E0223,R0185,"We successfully pulled it off; two birds with one stone, so to speak",We successfully pulled off both tasks.,Avoid filler words
 E0224,R0186,What can we do better?,What adds more value for you?,Avoid modal 'Can'
-E0225,R0187,Your experience at Google in particular interests me,Your experience at Google is interesting ,Avoid filler words
+E0225,R0187,Your experience at Google in particular interests me,Your experience at Google is interesting,Avoid filler words
 E0226,R0188,I enclose herewith a copy of the document,You will find the document attached,Avoid filler words
 E0227,R0189,"Of course, if you have any questions you can reach out to me",Are there any open questions or are you ready to proceed?,Avoid filler words
 E0228,R0190,I was literally amazed by your portfolio,Your portfolio is amazing. The project on...,Avoid filler words
@@ -349,18 +349,18 @@ E0348,R0273,Please advise on who is the best to speak to regarding hiring,Can yo
 E0349,R0273,Please advise on how we can proceed with collaboration,Is collaborating something you are interested in?,Avoid overused terms
 E0350,R0273,My name is Eric and I work for Apple,This is Eric writing to you from Apple,Avoid overused terms
 E0351,R0273,I work for lots of companies like yours to help them find the right profiles,Is help with finding the right profiles something you are interested in right now?,Avoid overused terms
-E0352,R0273,I want to reach out to show you the benefits of introducing a pricing solution, This is how introducing a pricing solution will help you,Avoid overused terms
-E0353,R0273,I wanted to reach out to see how things are going for you at Google, How are things going for you at Google?,Avoid overused terms
-E0354,R0273,I wanted to touch base to see how your first six months in the new position are going,  How have the first six months in your new position been?,Avoid overused terms
-E0355,R0273,I want to touch base to see if you're open to discuss how much you could save by changing your energy provider, Do you know how much you can save by switching energy provider?,Avoid overused terms
-E0356,R0273,Let's touch base in a week to see what your initial impression of the product was, Do you have time next week Tuesday or Wednesday to give your initial impression of the product?,Avoid overused terms
-E0357,R0273,"I wanted to introduce myself and our auto photo editing app, Fixer, which can edit images in seconds", Fixer is an automated photo editing app which edits any image in seconds,Avoid overused terms
+E0352,R0273,I want to reach out to show you the benefits of introducing a pricing solution,This is how introducing a pricing solution will help you,Avoid overused terms
+E0353,R0273,I wanted to reach out to see how things are going for you at Google,How are things going for you at Google?,Avoid overused terms
+E0354,R0273,I wanted to touch base to see how your first six months in the new position are going,How have the first six months in your new position been?,Avoid overused terms
+E0355,R0273,I want to touch base to see if you're open to discuss how much you could save by changing your energy provider,Do you know how much you can save by switching energy provider?,Avoid overused terms
+E0356,R0273,Let's touch base in a week to see what your initial impression of the product was,Do you have time next week Tuesday or Wednesday to give your initial impression of the product?,Avoid overused terms
+E0357,R0273,"I wanted to introduce myself and our auto photo editing app, Fixer, which can edit images in seconds",Fixer is an automated photo editing app which edits any image in seconds,Avoid overused terms
 E0358,R0273,"Let me introduce myself, I am Greg and I am engineering an energy usage monitor to save businesses up to 20% on gas bills",Implementing energy-saving usage monitors throughout your business could save you 20% on your gas bill,Avoid overused terms
 E0359,R0273,I'm not trying to sell you anything,Do you have 30 seconds to decide whether this might be useful for you?,Avoid overused terms
 E0360,R0273,I'm not trying to sell you an insurance plan you don't need,78% of customers like you say they are glad they opted for this insurance plan,Avoid overused terms
 E0361,R0218,A lot of labor has been invested to create a great product,You can tell how much work was invested to create a great product,Use positive words
 E0362,R0218,There was a lot of toil in the development process,Toil was invested in the development process,Use positive words
-E0363,R0218,I appreciate you invested an awful lot of effort into the project ,I appreciate all the effort you invested into the project,Use positive words
+E0363,R0218,I appreciate you invested an awful lot of effort into the project,I appreciate all the effort you invested into the project,Use positive words
 E0364,R0218,An awful lot of work goes into inputting monthly finances manually rather than automatically,Inputting finances automatically rather than manually reduces workload,Use positive words
 E0365,R0218,You'll save an awful lot of grinding by implementing the automization tool,You'll save yourself work by implementing the automization tool,Use positive words
 E0366,R0218,Creating new design iterations takes an awful lot of labor,Creating new design iterations is labor intensive,Use positive words
@@ -399,7 +399,7 @@ E0398,R0218,I hope you aren't swamped with too much work,Are you able to manage 
 E0399,R0218,That too much toil is involved in changing jobs is a misconception,Changing jobs is easier than most people think,Use positive words
 E0400,R0218,It will take too much labor to migrate to a new system right now,Migrating to a new system doesn't make sense right now,Use positive words
 E0401,R0218,It too much undertaking onboarding a complete junior,It will not be possible to onboard a complete junior,Use positive words
-E0402,R0218,Acme has been busy working on a new prototype ,Acme has been working on a new prototype,Use positive words
+E0402,R0218,Acme has been busy working on a new prototype,Acme has been working on a new prototype,Use positive words
 E0403,R0218,Were you busy grinding away on your job search?,How is your job search going?,Use positive words
 E0404,R0218,The team is busy laboring away to hit the OKRs,The team is working to hit the OKRs,Use positive words
 E0405,R0218,We have been busy toiling on a special offer just for you,We have been creating a special offer just for you,Use positive words
@@ -411,7 +411,7 @@ E0410,R0218,I am toiling a lot over the new design to make sure it's suitable,I 
 E0411,R0218,The team is undertaking a lot of tasks as the deadline is fast approaching,"Given the approaching deadline, the team has undertaken more tasks",Use positive words
 E0412,R0218,I can see you're working hard – the new model looks great,Your work is paying off - the new model looks great,Use positive words
 E0413,R0218,We are grinding hard to make a faster solution,We are working to find a faster solution,Use positive words
-E0414,R0218,We're already laboring hard on the next funding round ,We're already starting with the next funding round,Use positive words
+E0414,R0218,We're already laboring hard on the next funding round,We're already starting with the next funding round,Use positive words
 E0415,R0218,The design team is toiling hard to make a version which appeals to younger users,The design team is working on a version which appeals to younger users,Use positive words
 E0416,R0218,You are working too much – you deserve a break,"After all your work, you deserve a break",Use positive words
 E0417,R0218,We will be grinding too much to achieve such a tight deadline,The deadline must be extended to be achievable,Use positive words
