@@ -48,7 +48,7 @@ def main():
         files_changed = True
     else:
         files_changed = False
-    print(f"files_changed: {files_changed} >> $GITHUB_OUTPUT")
+    print(f"files_changed={files_changed} >> $GITHUB_OUTPUT")
 
 
 if __name__ == "__main__":
