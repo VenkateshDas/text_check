@@ -11,6 +11,11 @@ on:
         - 'main'
     paths:
         - "text_check/**" # check if any file in text_check folder is changed
+  pull_request:
+    branches:
+        - 'main'
+    paths:
+        - "text_check/**" # check if any file in text_check folder is changed
 
 jobs:
   update_rule_db:
