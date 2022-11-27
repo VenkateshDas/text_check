@@ -17,14 +17,18 @@ def download_from_google_sheets(sheet_id, sheet_name):
     df = pd.read_csv(url)
     return df
 
+
 # Assumption: Every column must have a value. If there is no value, then the column must be empty. They will be be dropped.
-def compare_df(old_df, new_df, file_name):
+def update_df(old_df, new_df, file_name):
     new_df.dropna(inplace=True, axis=1, how='all')
     if old_df.equals(new_df):
         print(f"No changes in the provided file: {file_name}")
+        is_updated = False
     else:
         print(f"Updating the file: {file_name}")
         new_df.to_csv(file_name, index=False)
+        is_updated = True
+    return is_updated
 
 
 # main function
@@ -37,9 +41,15 @@ def main():
     old_rules_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/rules.csv")
     old_examples_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/examples.csv")
     # compare rules df
-    compare_df(old_rules_df, new_rules_df, "text_check/configs/rules.csv")
+    is_rules_updated = update_df(old_rules_df, new_rules_df, "text_check/configs/rules.csv")
     # compare examples df
-    compare_df(old_examples_df, new_examples_df, "text_check/configs/examples.csv")
+    is_examples_updated = update_df(old_examples_df, new_examples_df, "text_check/configs/examples.csv")
+
+    if is_rules_updated or is_examples_updated:
+        files_changed = True
+    else:
+        files_changed = False
+    print(f"files_changed: {files_changed} >> $GITHUB_OUTPUT")
 
 
 if __name__ == "__main__":
