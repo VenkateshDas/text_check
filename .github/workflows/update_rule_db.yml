@@ -1,0 +1,4 @@
+# Github workflow to update the rule database every day
+# This workflow is triggered on a schedule
+# The workflow will run the update_rule_db.py script
+# If there are files modified, then it will create a PR with the changes using the Create Pull Request action

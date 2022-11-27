@@ -1,0 +1,422 @@
+example_id,rule_id,wrong_text,correct_text,headline
+E0001,R0001,Would a profile like this be of interest to you??,Does a profile like this pique your interest?,Remove multiple punctuation marks
+E0002,R0003,I would like to show you the benefits we provide.,Are you interested in learning more about how you can benefit from us?,Avoid using the conditional
+E0003,R0011,Not many,Only few,Use positive words
+E0004,R0012,Hope you're not too busy to talk,Do you have a minute to talk?,Use positive words
+E0005,R0013,I don't want to rush,Let's take it slow,Use positive words
+E0006,R0014,I don't want to bother you if you're not interested,Is this valuable for you?,Use positive words
+E0007,R0015,So you do not spend money,So you save money,Use positive words
+E0008,R0016,Is there something you don't understand?,Is there something that needs explaining further?,Use positive words
+E0009,R0017,You're not getting the most out of this,You can get more out of this,Use positive words
+E0010,R0018,"In case you're not happy with the service, contact customer support","In case you feel like the service can be improved, contact customer support",Avoid 'Not'
+E0011,R0019,I really don't want to come across...,This is meant to...,Avoid 'Not'
+E0012,R0020,This should not come across...,This is meant to...,Avoid 'Not'
+E0013,R0021,It's not about,It's about,Avoid 'Not'
+E0014,R0022,I'm not familiar with this,This is something I have to further explore,Avoid 'Not'
+E0015,R0023,This won't work,There has to be a better way,Show optimism
+E0016,R0024,Don't lose,Keep,Avoid 'Not'
+E0017,R0025,Don't miss,Secure,Avoid 'Not'
+E0018,R0026,With us you won't have to,With us you will be able to,Avoid 'Not'
+E0019,R0027,I didn't think this could happen,I did my best to avoid/prevent this from happening,Avoid 'Not'
+E0020,R0029,I have not heard back from you,Is there anything you want or need help with to move forward on this?,Avoid stating the obvious
+E0021,R0030,Please don't hesitate to reach out if you have questions,Are there any open questions or can we move forward on this?,Use direct questions
+E0022,R0031,There is no better solution,This is the best solution,Avoid 'No'
+E0023,R0032,You will not regret it,You will love it,Use positive words
+E0024,R0033,It's never a mistake,It's always a good idea,Use positive words
+E0025,R0034,It's never too late,It's the right time,Avoid 'Never'
+E0026,R0039,No investment/ cost/ fee,Free,Avoid 'No'
+E0027,R0039,"No hidden fees, ever.",You will always pay transparent fees.,Avoid 'No'
+E0028,R0039,There is no subscription/cost for EV drivers to use all the above features and connect their home charger.,EV drivers can use all the above features for free and connect their home charger.,Avoid 'No'
+E0029,R0039,"A person loads their payment sender wallet, and there are no transaction costs between nodes on the interledger.","A person loads their payment sender wallet, and there is zero transaction charge between nodes on the interledger.",Avoid 'No'
+E0030,R0039,"We’ve got you covered with estimated footprints and there are no forms, no, audits, and no hidden costs or fees.",You're covered with estimated footprints and there are only transparent fees.,Avoid 'No'
+E0031,R0039,This has no development costs and is perfect for the party equipment business,Developing this product for you is free and will be a perfect fit for the party equipment business.,Avoid 'No'
+E0032,R0040,No risk,Safe,Avoid 'No'
+E0033,R0041,I saw your profile and I think you are a great fit for this company,"Based on your skills in web design, you are a great fit for this company",Focus on your reader
+E0034,R0041,"Hello, Just came across your profile and I have to say I was impressed with what I saw.",You have an impressive profile.,Focus on your reader
+E0035,R0041,I saw that you're a fellow thought leader.,It seems like you're a fellow thought leader.,Focus on your reader
+E0036,R0041,I saw your linkedin page.,You have an impressive LinkedIn page.,Focus on your reader
+E0037,R0041,"I see that once the extension is minimised, the only way to get it back up is to analyse","Once the extension is minimised, the only way to get it back up is to analyse.",Focus on your reader
+E0038,R0046,I wanted to show you how to cut your marketing spend,Companies comparable to yours save 12% of their marketing spend using this software,Focus on your reader's benefit
+E0039,R0046,I would love to tell you more about this over the phone!,Are you open to talking about this over the phone today or early tomorrow?,Focus on your reader's benefit
+E0040,R0046,I would like to request a username and password for my savings account.,Can you provide me with a username and password for the saving account?,Focus on your reader's benefit
+E0041,R0046,I would love to introduce you to our software for customer engagement enhancement.,Are you interested in talking about the advantages of customer engagement software?,Focus on your reader's benefit
+E0042,R0046,I would like to sort out this accommodation situation before I travel to India.,The priority is to sort out this accommodation situation before travelling to India.,Focus on your reader's benefit
+E0043,R0046,I would love to connect to discuss a potential partnership.,Are you open to chatting about a partnership?,Focus on your reader's benefit
+E0044,R0047,I was wondering if I can show you the progress I've made,You can have a look at the progress made,Focus on your reader
+E0045,R0048,Let me show you what the product does,Have a look at what the product does,Focus on your reader
+E0046,R0049,I'm looking forward to talking to you,Thanks for confirming our meeting for next week Thursday 06.03. at 1 PM,Give a reminder
+E0047,R0052,"I recently came across your company, and I would love to show you how to streamline your processes","Your company is growing rapidly. With that kind of growth, streamlined processes can save time and money",Focus on your reader's benefit
+E0048,R0052,"I saw your profile, and wanted to connect.",Are you open to connecting?,Focus on your reader's benefit
+E0049,R0052,Hey Tony - I saw you signed up for Twain.,"Thank you, Tony, for signing up for Twain.",Focus on your reader's benefit
+E0050,R0052,"Also, I saw that you recently changed the search status of your profile.","Based on your profile's recently changed search status, this opportunity can be a great fit for you.",Focus on your reader's benefit
+E0051,R0052,Now here’s how I think we could work together…,Following the reasons how you will benefit from working together.,Focus on your reader's benefit
+E0052,R0052,Really happy that I've found Acme!,Acme is exciting.,Focus on your reader's benefit
+E0053,R0052,I saw your recent blog post about engagement for publishers.,Your recent blog post about engagement for publishing was a great read.,Focus on your reader's benefit
+E0054,R0053,I wanted to show you what the product does,Have a look at what the product does,Focus on your reader
+E0055,R0053,I want to present on how we help you find tech talent.,"Have you covered the hiring process, or are you open to finding tech talent?",Focus on your reader
+E0056,R0053,I want to introduce the latest version of Twain.,The latest version of Twain is here for you.,Focus on your reader
+E0057,R0054,I hope you're doing well,How was your trip to the ocean? Did you catch some sunshine?,Show sincerity
+E0058,R0055,I have shared the presentation with you,You now have access to the presentation,Encourage your reader
+E0059,R0056,We make software to reduce marketing spend,Companies comparable to yours save 12% of their marketing spend using this software,Focus on your reader's benefit
+E0060,R0056,We're the best service to localise apps,You will benefit from having the best service to localise apps with us.,Focus on your reader's benefit
+E0061,R0056,We're a platform that connect trainers with clients.,Clients like you benefit from connecting with trainers through the platform.,Focus on your reader's benefit
+E0062,R0056,"Welcome to Acme, we are the leading restaurant delivery business providing 5x faster deliveries","Welcome to Acme, the leading restaurant delivery business, providing 5x faster deliveries.",Focus on your reader's benefit
+E0063,R0056,"We work on a 'no cure, no fee' basis.",You will pay only after getting results.,Focus on your reader's benefit
+E0064,R0056,and we make every stakeholder happy!,Every stakeholder who has cooperated with us is happy.,Focus on your reader's benefit
+E0065,R0057,Our product reduces time spent making orders,Companies similar to yours reduced time spent making orders by 60%,Focus on your reader's benefit
+E0066,R0057,Attached you will find our asset management brochure which describes in detail our services.,You can learn about the services you will get in the asset management brochure attached.,Focus on your reader's benefit
+E0067,R0057,The case in attachment shows you how one industry peer benefitted from our solution.,Find a case study on how an industry peer benefited from the attached solution.,Focus on your reader's benefit
+E0068,R0057,We have great discounts at the moment on all of our product lines!,You get discounts on all product lines.,Focus on your reader's benefit
+E0069,R0057,Our product is the best,This is the best product for organizations like yours.,Focus on your reader's benefit
+E0070,R0057,"Hi, I'm Kris and I'm here to see if you'd need our services.","Hi <NAME>, this is Kris writing to you to see if any of the following services can be beneficial to you.",Focus on your reader's benefit
+E0071,R0060,I thought I'd share our newest features with you,You can find a guide on how you can benefit from the most recent product update attached.,Focus on your reader's benefit
+E0072,R0060,I'd love to offer you a Sales Development Representative opportunity at Acme.,You have an offer for an opportunity to join Acme as a Sales Development Representative,Focus on your reader's benefit
+E0073,R0060,I would love to show you what we are doing and ask for advice.,Are you interested in learning more about how you can benefit and provide advice?,Focus on your reader's benefit
+E0074,R0060,I would like to show you how it can help you,Are you interested in learning how it can help you?,Focus on your reader's benefit
+E0075,R0060,I'd love to show how we can help Acme get an even bigger competitive edge.,Do you want to learn how Acme can get a bigger competitive edge?,Focus on your reader's benefit
+E0076,R0060,"Hello, I would like to offer you a new position in Marketing.",Are you interested in a new position in marketing?,Focus on your reader's benefit
+E0077,R0061,I thought our service might be useful to you when managing accounts,The service offers you the possibility to easily manage accounts,Focus on your reader's benefit
+E0078,R0062,I wanted to share our newest feature with you,The newest feature will offer you more autonomy,Focus on your reader's benefit
+E0079,R0065,I have attached the propsal,Attached you will find the proposal,Focus on your reader
+E0080,R0065,I sent you an email last week regarding free options,"As mentioned in the previous email, this option is free for you.",Focus on your reader
+E0081,R0065,I’ve sent you this note as I think Acme could be awesome for you.,You are reading this note because Acme can be a great fit for you.,Focus on your reader
+E0082,R0065,I will send you the online version of the textbooks.,You will receive the online version of the textbooks.,Focus on your reader
+E0083,R0065,Let me know and I'll send you more details.,Is hearing details something you are interested in?,Focus on your reader
+E0084,R0065,I will therefore send you the feedback in a separate email.,You will get/receive the feedback in a seperate email.,Focus on your reader
+E0085,R0065,As discussed over the phone last week I would like to send you,"As mentioned last week on the phone, these are the benefits you will get:",Focus on your reader
+E0086,R0065,I’d send you the profiles if you’re open.,Are you interested in having a look at the profiles?,Focus on your reader
+E0087,R0066,"I know you must be getting a ton of e-mails, but I wanted to talk you through the update's new features","To keep it brief and clear for you, here are the update's key new features",Focus on the positives
+E0088,R0067,My name is Marc,This is Marc writing to you,Put your reader in the center
+E0089,R0069,I'm going to keep this as brief as possible,You will have a brief idea if this is interesting to you within 30 seconds,Be precise
+E0090,R0070,I'm not going to take up too much of your time,You will have a brief idea about if this is interesting to you within 30 seconds,Encourage your reader
+E0091,R0071,I wanted to highlight the opportunity to expand your knowledge,You'll have the opportunity to expand your knowledge,Focus on your reader's benefit
+E0092,R0072,Tough,With potential,Use positive words
+E0093,R0073,Keeping track of your expenses can be difficult sometimes,Finally there's a solution to conveniently keeping track of your expenses,Use positive words
+E0094,R0073,It would be difficult for me to have the session at 6 AM in the morning.,It's better to have the session at a time other than 6 AM in the morning.,Use positive words
+E0095,R0073,From what I understand you are facing difficult times both from the market side as well as from your internal transformation.,It seems you need to find solutions for your process from the market side and your internal transformation.,Use positive words
+E0096,R0073,"Megan, maybe this isn't the case for you -- but CS teams we work with were finding it difficult to track and prioritize their users' needs.","Megan, CS teams find tracking and prioritizing their users' needs challenging. How is this the case for you?",Use positive words
+E0097,R0073,"Yet, the sustainability performance of companies is rarely visible, and difficult to compare, making it difficult to integrate in the decision making process.","The sustainability performance of companies is rarely visible and incomparable, making it challenging to integrate in the decision-making process.",Use positive words
+E0098,R0073,We know exactly how difficult this search can be.,We know exactly how challenging this search can be.,Use positive words
+E0099,R0073,Are you finding it difficult to find and hire the right skilled workers to deliver your projects on time?,Are you finding it challenging to find and hire the right skilled workers to deliver your projects on time?,Use positive words
+E0100,R0074,I understand the problem,I see an opportunity to make this run more smoothly,Use positive words
+E0101,R0075,Please excuse,Thanks for understanding,Focus on the positives
+E0102,R0076,Very sorry to chase but I am just following up on my previous email,Is there any additional information you need to move forward on this?,Encourage your reader
+E0103,R0077,Try,Do,Show confidence
+E0104,R0078,Trying,Doing,Show confidence
+E0105,R0079,...But you don't have any additional costs!,"...And everything is included, how cool is that?",Show Positivity
+E0106,R0079,"But hey, have you invited them with the correct address?",Have you invited them with the correct address?,Show Positivity
+E0107,R0079,But where's the grit?,Where's the grit?,Show Positivity
+E0108,R0079,But rarely are these foods healthy.,These foods rarely are healthy,Show Positivity
+E0109,R0079,"Exhausted, but awesome!","Exhausted, while also awesome.",Show Positivity
+E0110,R0079,"Electrification of roads reduces direct emissions, but indirect emissions pose a challenge.","Electrification of roads reduces direct emissions, and indirect emissions pose a challenge.",Show Positivity
+E0111,R0079,"But for me, it has two even deeper meanings.","To me, it has two deeper meanings.",Show Positivity
+E0112,R0079,"But I was also beyond my ""opportunity days"" and looking for strong visions.","I was also beyond ""opportunity days"" and looking for strong visions.",Show Positivity
+E0113,R0079,But it can do so much more.,It can do so much more.,Show Positivity
+E0114,R0080,No problem,It is my pleasure,Use positive words
+E0115,R0080,It's not a problem if not.,It's fine if not.,Use positive words
+E0116,R0080,"No problem, discover Fanomena Events completely free with our new free forever plan.","Fanomena Events are completely free with a ""new free forever"" plan.",Use positive words
+E0117,R0080,There is no problem with my solution.,The solution is clear.,Use positive words
+E0118,R0080,That's no problem at all and I'll move our call to 2pm GMT tomorrow.,"Sure thing, the call is moved to 2pm GMT tomorrow.",Use positive words
+E0119,R0081,I hope you don't mind,I hope that's okay with you,Use positive words
+E0120,R0082,Let me know when you're free,Does next week or later this week work better for you?,Ask a clear question
+E0121,R0084,Let me know what works for you,Does next week or later this week work better for you?,Ask a clear question
+E0122,R0085,Are you free anytime soon?,Does next week or later this week work better for you?,Ask a clear question
+E0123,R0087,Does next week Monday work for you?,Does next week or later this week work better for you?,Ask a clear question
+E0124,R0088,Are you free tomorrow morning?,Does the afternoon or early morning work better for you?,Ask a clear question
+E0125,R0091,I could meet you later this week,Does your availability look better this week or early next week?,Ask a clear question
+E0126,R0092,I'm available later this week,Does your availability look better this week or early next week?,Ask a clear question
+E0127,R0092,"If there are any outstanding questions, I'm available flexibly today.",Are there any outstanding questions or is everything clear?,Ask a clear question
+E0128,R0092,I'm available flexibly today.,Do you prefer to talk now or rather later today?,Ask a clear question
+E0129,R0092,I am available at any time to answer your questions.,Are there any open questions or is everything clear?,Ask a clear question
+E0130,R0092,"I am available all day, happy to schedule a call when it best suits you.",Does the morning or rather afternoon suit you best?,Ask a clear question
+E0131,R0092,I am available starting with the 27.06.,Does starting from the 27.06 suit you or do you prefer another date?,Ask a clear question
+E0132,R0094,Looking forward to hearing from you,Does your availability look better this week or early next week?,Ask a clear question
+E0133,R0096,Let's connect,Is this something you have covered or do you want to learn more about the benefits?,Focus on your reader's benefit
+E0134,R0096,Hi how are you doing??? Let's connect via linkedin,Are you fine with connecting on LinkedIn?,Focus on your reader's benefit
+E0135,R0096,Let's partner/collaborate and create great content together.,Do you want to hear how it will benefit you to create content together?,Focus on your reader's benefit
+E0136,R0096,Let's connect when it's convenient for you.,Are you interested in connecting when it's convenient for you?,Focus on your reader's benefit
+E0137,R0096,We would like to partner up.,Are you open to learning about your advantages with a potential partnership?,Focus on your reader's benefit
+E0138,R0096,"Hi Marc, how is it going over there??? Let's connect next week.","Hi Marc, do you prefer to connect early or rather later next week?",Focus on your reader's benefit
+E0139,R0097,"If this sounds interesting for your team, let me know",Do you believe this will be of interest for your team?,Ask a clear question
+E0140,R0098,I appreciate your answer,Thank you for getting back,Thank your reader in advance
+E0141,R0105,"If you are interested, send me a message",Is this something you are open to talk more about or do you have any questions?,Ask a clear question
+E0142,R0106,What do you think?,Is this something you are open to talk more about?,Ask a clear question
+E0143,R0106,What do you think if we combine both options?,Are you fine with combining both options?,Ask a clear question
+E0144,R0106,What do you think - could it make sense to talk to each other?,Do you think talking about it will help you?,Ask a clear question
+E0145,R0107,Our company will increase customer retention rates,The reason companies similar to yours work with us is the increase in their customer retention rates,Focus on your reader's benefit
+E0146,R0108,Our company provides information and training guides to professionals in the financial community,Professionals like you in the financial community get information and training guides,Focus on your reader's benefit
+E0147,R0108,"Our approach is to start by sharing our network, experience and capabilities well before any investment possibility arises.","You will benefit from the network, experience, and capabilities well before any investment possibilitiy arises.",Focus on your reader's benefit
+E0148,R0108,Our company provides information and training guides to people in the UK 'Matched Betting' community.,People in the UK 'Matched Betting' community get information and training guides.,Focus on your reader's benefit
+E0149,R0108,Our team is growing and to deliver data backed and efficient output we all require tools frequently.,Keeping up with the team growth and delivering data backed and efficient ouput requiers us to use tools frequently.,Focus on your reader's benefit
+E0150,R0109,Our company does all kinds of trainings,Clients comparable to you love the versatility of trainings,Focus on your reader's benefit
+E0151,R0110,Our company helps match energy provider with customer to reduce energy bills,You will be matched with the perfect energy provider to save you money on your bills,Focus on your reader's benefit
+E0152,R0111,I'm excited to hear your thoughts,Do you have any unanswered questions or does this sound like something that can be valuable to you?,Ask a clear question
+E0153,R0114,When could/would be a good time to talk?,Does later this week or early next week work better for you?,Ask a clear question
+E0154,R0116,When should I call you back?,Does late this week or early next week work better for you?,Ask a clear question
+E0155,R0119,Would/could your company be interested in this?,Is this something your company is interested in?,Avoid the conditional
+E0156,R0120,Would/could this be useful to you?,Do you need more information or is it clear how this can be useful to you?,Avoid the conditional
+E0157,R0122,"As promised, I am reaching out as I would love to hear about any progress made since we last spoke earlier this year","As promised, you're hearing back from me to check in. Do you want to talk about the progress made or are you ready to move forward?",Focus follow-up on your reader
+E0158,R0123,I would like to have the opportunity to talk to your manager,Who do we have to get in on our conversation to move forward?,Include your reader
+E0159,R0124,Can you connect me with the person responsible for this?,Who else do we have to get in on our conversation to move forward?,Include your reader
+E0160,R0125,Can I talk to the person responsible for this?,Who else do we have to get in on our conversation to move forward?,Include your reader
+E0161,R0126,I would love to show you our solution,Do you have further questions or do you want to see how you can benefit from our solution?,Focus on your reader's benefit
+E0162,R0126,I would like to show you how our product can help you with increasing your sales.,Are you interested in seeing how the product can help you with increasing your sales?,Focus on your reader's benefit
+E0163,R0126,Hello I would like to present my proposal,Are you open to having a look at the proposal?,Focus on your reader's benefit
+E0164,R0126,I would like to talk about our product.,Are you open to talking about the product?,Focus on your reader's benefit
+E0165,R0128,"If you would love to hear more, please feel free to reach out to me",Are there any open questions right now or can we simply setup a call to talk about your objectives?,Ask a clear question
+E0166,R0128,I’ve attached an investment flyer if you would like to know more about us.,Do you want to learn how much you can benefit from your investment?,Ask a clear question
+E0167,R0128,"Please shoot me your email, if you would like to talk!",Is this something you're excited to talk more in detail?,Ask a clear question
+E0168,R0128,Let me know if you would like to learn more,Are you interested in learning more how you can benefit?,Ask a clear question
+E0169,R0128,"I'm excited to hear back from you, if you want to chat!",Is this something that is exciting for you to chat about?,Ask a clear question
+E0170,R0128,"If you want to improve your caregiver training, simply reply to this email.",Are you interested in improving your caregiver training?,Ask a clear question
+E0171,R0128,"If you'd like to try it out, please join here.",Do you have any open questions or are you open to simply joining here?,Ask a clear question
+E0172,R0130,I would appreciate if you could get back to me by next Monday,"To start saving you 10% of your overhead costs for this month, we need to kick this off by next Monday",Focus on your reader's benefit
+E0173,R0131,I was wondering if you could share your challenges with me,"To quickly understand how you can benefit, we need to look at your challenges. What's currently on the top of your mind?",Show confidence
+E0174,R0132,I would like to invite you to our upcoming event,You are invited to our upcoming event,Avoid the conditional
+E0175,R0132,We'd like to invite you to be one of the first to try out the new features.,You will be one of the first to try out the new features.,Avoid the conditional
+E0176,R0132,"We’re very interested in your background, and would like to invite you to start the recruitment process right away by following the steps below.",Your background is very interesting. That's why you're invited to start the recruitment process by following the steps below.,Avoid the conditional
+E0177,R0133,With this email I would like to give you an update on the process,You're receiving this email so you have an update on the process,Avoid the conditional
+E0178,R0135,I could show you our product,Do you feel looking at our product will add value to you?,Avoid the conditional
+E0179,R0136,I could/ would like to/ may/ might be able to help you,I am excited to help you,Avoid the conditional
+E0180,R0137,I thought it would be great to catch up,Do you feel like it will be useful to you to catch up next week?,Focus catch-up on reader
+E0181,R0139,Congrats on your recent success!,"Your latest ad campaign is brilliant, all this hard work you've invested is totally paying off",Give specific compliments
+E0182,R0140,Think about all the money you will save your employer,Picture how your yearly review will go if you personally manage to cut the company's costs by 10%.,Build a narrative
+E0183,R0140,What do you think about it?,Is this something you're open to?,Build a narrative
+E0184,R0140,I think it would be safe to stay at home.,It's safe to stay at home.,Build a narrative
+E0185,R0140,I just found out about Woodupp and I think it is amazing.,Woodupp is amazing.,Build a narrative
+E0186,R0140,And I would really think it would be fun to work with you guys.,It will be fun working with you guys.,Build a narrative
+E0187,R0140,Please have a look and let me know what you think.,Are there any open questions or will you simply have a look and get back afterwards?,Build a narrative
+E0188,R0144,Your company has lead the innovation in our industry for decades,Apple has lead the innovation in our industry for decades,Use the organization's name
+E0189,R0145,I was wondering whether this might be interesting for you,Do you have this covered or does solving this help you in any way?,Show confidence
+E0190,R0146,Maybe a quick intro call will work sometime this/next week?,Is this week or next week more convenient for you to have a quick intro call?,Avoid 'Maybe'
+E0191,R0147,I have an opportunity for you,What's currently on your mind?/What's important to you?,Focus on your reader's concerns
+E0192,R0148,I would love to discuss this with you!,Is this something that is currently on top of your mind?,Avoid 'Discuss'
+E0193,R0149,We help companies grow sustainably,Companies like Acme love how we support them to grow sustainably,Focus on your reader's organization
+E0194,R0150,"Not to stress you, but the deadline is fast approaching",Let's work together to meet the deadline,Avoid 'Stress'
+E0195,R0151,"Hi Marc, at Apple we...","Hi Marc, you guys are doing an impressive job...",Focus opening on reader
+E0196,R0153,"Greetings, I'm Marc from Acme","Greetings Nadja, this is Marc messaging you from Acme",Use your recipient's name
+E0197,R0154,We are happy to help you!,We are happy to help you.,Avoid exclamation points
+E0198,R0156,It's a great initiative!!!,It's a great initiative.,Avoid multiple punctuation marks
+E0199,R0157,No worries,I appreciate you/r...,Avoid 'Worry'
+E0200,R0158,Let's have a call soon,Do you prefer to talk this week or rather early next week?,Make a clear call-to-action
+E0201,R0159,"However, we can try to ship your order next week",We will do our best so you get your order next week,Keep it to the point
+E0202,R0161,I could tell you more about the services,You can learn more about the services,Avoid the conditional
+E0203,R0162,I should probably tell you more about our newest feature,You can learn more about how to benefit from the newest feature,Avoid the conditional
+E0204,R0164,Are you open to talking?,Will solving this make your life any better/easier right now?,Take it slow
+E0205,R0165,"We have many, many more ideas",There are multiple ideas to explore,Avoid repeated words
+E0206,R0166,"Hi Nadja, can you send me an update by Monday?","Hi Nadja, great to see you making progress on this ... Can you send me an update by Monday?",Avoid asking early questions
+E0207,R0167,"No, our product is different to others on the market",Our product is different to others on the market and here is why...,Avoid 'No'
+E0208,R0168,"You're wrong, the sector is thriving more than ever",The sector is thriving more than ever,Avoid correcting your reader
+E0209,R0169,I need you to cooperate with me on this project,I really value your input on the project,Lower the pressure
+E0210,R0170,Thanks,Thank you,Write out 'Thank you'
+E0211,R0171,"Sorry, could you help me with this?",Do you have time to help me with this?,Avoid 'Sorry'
+E0212,R0172,I was just wondering if this applies to you,Does this apply to you?,Show authority
+E0214,R0174,I was kind of expecting to meet sooner to go over the project,Can we meet sooner to go over the project?,Avoid 'Kind of'
+E0215,R0175,Hopefully this is something you want to collaborate on,Collaborating with you will add a ton of value to...,Show confidence
+E0216,R0176,"Statistically, 90% of our users are happy with the service we provide",90% of our users are happy with the service we provide,Avoid filler words
+E0217,R0177,"So, perhaps we can discuss this further over a phone call",Can we discuss this over a phone call?,Avoid filler words
+E0218,R0178,"As you know, we've been trying to establish more partners like you",We've been working hard to establish more partners like you,Avoid filler words
+E0219,R0179,"Basically, we'd like to collaborate with more entrepreneurs like you",We want to collaborate with more entrepreneurs like you,Avoid filler words
+E0220,R0180,We're pretty much finished with the first round of funding,We're almost finished with the first round of funding,Avoid filler words
+E0221,R0181,"To whom it may concern in your company, here is a copy of our roadmap for the next few months",Here is a copy of our roadmap for the next few months,Avoid filler words
+E0222,R0184,I've sent you an email requesting a meeting,Is this something that is currently on top of your mind?,Take it slow
+E0223,R0185,"We successfully pulled it off; two birds with one stone, so to speak",We successfully pulled off both tasks.,Avoid filler words
+E0224,R0186,What can we do better?,What adds more value for you?,Avoid modal 'Can'
+E0225,R0187,Your experience at Google in particular interests me,Your experience at Google is interesting ,Avoid filler words
+E0226,R0188,I enclose herewith a copy of the document,You will find the document attached,Avoid filler words
+E0227,R0189,"Of course, if you have any questions you can reach out to me",Are there any open questions or are you ready to proceed?,Avoid filler words
+E0228,R0190,I was literally amazed by your portfolio,Your portfolio is amazing. The project on...,Avoid filler words
+E0229,R0191,It's really a great initiative,It's a great initiative,Avoid filler words
+E0230,R0192,Two other investors are already on board,Two other investors are on board,Avoid filler words
+E0231,R0193,There are currently 1000 people signed up to the event,There are 1000 people signed up to the event,Avoid filler words
+E0232,R0194,The company is at a really exciting turning point right now,The company is at an exciting turning point,Avoid filler words
+E0233,R0195,Profiles like yours are especially interesting for us,Your profile is interesting for us because of your...,Avoid filler words
+E0234,R0196,"At the moment, there are five others in the team",There are five others in the team,Avoid filler words
+E0235,R0197,"As it stands, there are already some great developments in the software",There are some great developments in the software,Avoid filler words
+E0236,R0199,"Additionally, you will get the chance to meet other entrepreneurs",You will get the chance to meet other entrepreneurs,Avoid filler words
+E0237,R0200,"Unfortunately, this is a situation we all face regularly",This is a situation we all face regularly,Avoid filler words
+E0238,R0201,"As you might have seen, we recently reached out to food influencers like yourself to ask them to share their favorite recipes","As a food influencer, are you interested in sharing your favorite recipes through our new initiative?",Avoid filler words
+E0239,R0202,There will be at least 500 other attendees,There are 500 attendees signed up,Avoid filler words
+E0240,R0203,"Actually, there are some final things to go over",There are some final things to go over,Avoid filler words
+E0241,R0204,"Hi Stefan, thanks for getting back to me. The collaboration is...","Hi Stefan, the collaboration is...",Avoid filler words
+E0242,R0205,You'll definitely get a good impression of it from the reviews,You can check the reviews to see if it sounds useful for you,Avoid filler words
+E0243,R0206,"We wanted to reduce electrical waste in landfill, thus our company was born",We reduce electrical waste in landfill,Avoid filler words
+E0244,R0207,Is this generally something you'll benefit from?,Is this something that you will benefit from?,Avoid filler words
+E0245,R0208,"As you may know, the new plastic packaging tax comes into force in January",The new plastic packaging tax comes into force in January,Avoid filler words
+E0246,R0209,"As you may have noticed, some improvements have been made since we last spoke",Some improvements have been made since we last spoke,Avoid filler words
+E0247,R0210,"As you may have seen, we have released a new feature",We have released a new feature,Avoid filler words
+E0248,R0211,The service expenses are waived for customers like you,"For you, the additional service is free",Use positive words
+E0249,R0212,The additional service is at no additional cost to your company,"For you, the additional service is free",Use positive words
+E0250,R0213,Your investments are risk-free,The investment is secure,Use positive words
+E0251,R0214,Delayed deliveries can be frustrating,We make sure all your deliveries arrive on time,Use positive words
+E0252,R0215,Are you hesitant because of the service's potential hidden costs?,This service is free,Use positive words
+E0253,R0216,Many startups struggle with financing,Many startups look for financial support,Use positive words
+E0254,R0217,"To avoid a conflict of interest, we propose a more focused model","To ensure everyone is happy, we propose a more focused model",Use positive words
+E0255,R0218,I imagine pulling your project off was a lot of work,Congratulations on your success in pulling your project off,Use positive words
+E0256,R0218,It took a great deal of effort to sort out the application documents,Effort was needed to sort out the application documents,Use positive words
+E0257,R0218,There was a great deal of grind to reach the deadline,We were grinding to reach the deadline,Use positive words
+E0258,R0218,A great deal of labor goes into creating a great pitch,Labor is needed to create a great pitch,Use positive words
+E0259,R0218,A great deal of toil has been invested by the team to publish this new iteration,The team invested toil to publish this new iteration,Use positive words
+E0260,R0218,Creating the right marketing takes a lot of effort,Creating the right marketing takes time,Use positive words
+E0261,R0218,"Because of lack of optimization,you're currently doing a lot of work for little output","With optimization, you'll do less work and increase output",Use positive words
+E0262,R0218,"Without a recruiter, it takes a lot of grind to find the right candidate for your vacancies","With a recruiter, it takes less grind to find the right candidate for your vacancies",Use positive words
+E0263,R0219,It took a lot of effort to reach our first 1000 customers,After some time we successfully reached our first 1000 customers,Use positive words
+E0264,R0220,"We understand attracting investors can be a pain, so we would like to help",We will help you attract investors,Use positive words
+E0265,R0220,I work with CIOs/CISOs/Heads of Data from mid to large enterprises who have flagged Compliance as a pain point.,CIOs/CISOs/Heads of Data from mid to large enterprises who have flagged compliance as a challenge benefitted from working with us.,Use positive words
+E0266,R0220,Can we set up a quick meeting so we can discuss your pain points and our suggested solutions?,Do you believe it can be helpful to you to set up a quick meeting to address your challenges and the suggested solutions?,Use positive words
+E0267,R0220,Are you one of the millions who find themselves battling chronic back and neck pain?,Are you one of the millions who find themselves who would benefit from back and neck support?,Use positive words
+E0268,R0220,"I am still at the beginning of my research, and I’m curious to understand the biggest pain points for homeowners.",What are the biggest challenges for homeowners?,Use positive words
+E0269,R0220,Are you one of the millions who has now given up and accepted they will just be in pain forever?,Are you one of the millions who need support?,Use positive words
+E0270,R0220,"With a 15-minute call, your insight will help us build a product that caters to your needs and pain points.","With a 15-minute call, your insight will help us build a product that caters to your needs.",Use positive words
+E0271,R0221,"Lack of sleep increases stress, which is why we are building this app",The app helps improve the quality and duration of sleep,Use positive words
+E0272,R0222,You don't need to go to the trouble,Everything is done for you,Use positive words
+E0273,R0223,There is an issue with the content of the copy,Let's work together to find an agreement on the copy,Use positive words
+E0274,R0223,Please shout if that is going to cause any issues.,Will you shout if there is anything you need help with?,Use positive words
+E0275,R0223,If you have issues with the task or the deadline then let me know.,Can you let me know if there are any questions regarding the task or deadline?,Use positive words
+E0276,R0224,What are the constraints?,What needs to be solved before you can proceed?,Use positive words
+E0277,R0225,Is the age of the company a deterrent for you?,Is company maturity important for you?,Use positive words
+E0278,R0226,"I don't want to be a nuisance, just wondered if you're still open to collaboration",Is collaboration something which is relevant and useful for you right now?,Use positive words
+E0279,R0227,"Sorry for the confusion, the previous link was incorrect",Here is the correct link,Use positive words
+E0280,R0228,I don't want to force you to make a premature decision about collaborating,Is there any other information you need to help make a decision about collaborating?,Use positive words
+E0281,R0229,Our app aims to alleviate the demands of manual tasks,Our app saves time spent on manual tasks,Use positive words
+E0282,R0229,Here is my sales pitch which shows a clear demand for new product,This pitch will show you a clear demand for a new product.,Use positive words
+E0283,R0230,Are you still looking to fill the open position?,Are you looking to fill the open position?,Lower the pressure
+E0284,R0231,I suppose it's not at the top of your priorities,Is this at the top of your mind?,Show conviction
+E0285,R0232,I thought this could be something for you,"Because of your great engineering experience, does this interest you?",Show conviction
+E0286,R0233,I'm happy to walk you through more info,Do you want to be walked through more info?,Avoid 'Happy to'
+E0287,R0234,I would be happy to meet you anyway,Is meeting up something which will benefit you right now?,Avoid 'Happy to'
+E0288,R0235,Would you be interested in learning more about our solution?,Are there any open questions or are you ready to proceed?,Make a clear call-to-action
+E0289,R0236,Let's exchange how we can support you,Are there any open questions or are you ready to proceed?,Make a clear call-to-action
+E0290,R0237,How’s your availability this week or next?,Do you prefer this week or next?,Make a clear call-to-action
+E0291,R0238,I look forward to speaking with you,Speak to you on Monday 28.02 at 10 am,Make a clear call-to-action
+E0292,R0239,Please let me know three days and times and I will let you know which works best for me,Do you prefer this Monday or next?,Make a clear call-to-action
+E0293,R0240,Does next Tuesday suit you for a 10-20 min video call?,Does this Friday or next Tuesday suit you better for a 10-20 min video call?,Make a clear call-to-action
+E0294,R0241,Please let me know some dates that work well for you,Do you prefer this Monday or next?,Make a clear call-to-action
+E0295,R0242,How are you best available?,Are you available for a video call on Tuesday or Thursday?,Make a clear call-to-action
+E0296,R0243,Let me know when works for you,Do you prefer this Monday or next?,Make a clear call-to-action
+E0297,R0244,How is your availability this week or next?,Do you prefer this week or next?,Make a clear call-to-action
+E0298,R0245,Give me a call,Are there any open questions or are you interested in scheduling a call?,Make a clear call-to-action
+E0299,R0246,Worth a short call?,Are there any open questions or are you interested in scheduling a call?,Make a clear call-to-action
+E0300,R0247,Let me know if scheduling such a call is interesting for you,Are there any open questions or are you interested in scheduling a call?,Make a clear call-to-action
+E0301,R0248,Is this something you would be interested in proceeding with?,Are there any open questions or are you interested in proceeding?,Avoid the conditional
+E0302,R0249,Could a chat on this be valuable?,Do you have this covered or will a chat about it be valuable for you?,Avoid the conditional
+E0303,R0250,Would love to have you on board,Is this something you're looking to collaborate on?,Avoid the conditional
+E0304,R0251,You may/might be wondering how this is useful for you,This is useful for you because you can save 20% of your current costs,Avoid the conditional
+E0305,R0252,"In case you have time, you can look over the attachments and let me know what you think",Look over the attachments and give your feedback on what's to be improved,Avoid 'In case'
+E0306,R0253,"And no, we're not just trying to sell you our product",We are doing this to have a positive social impact,Avoid negation
+E0307,R0254,Not only Google but also Apple are among our clients,Google and Apple are clients,Avoid negation
+E0308,R0255,There is no obligation to continue after the trial,You have free choice whether to continue after the trial,Avoid negation
+E0309,R0256,We decided not to move ahead with the project,We will continue with other projects,Avoid negation
+E0310,R0257,The trial is non-binding,You have free choice whether to continue after the trial,Avoid negation
+E0311,R0258,"To sum it up, we're working in sustainable food solutions",We're working in sustainable food solutions. Does this interest you?,Be to the point
+E0312,R0259,I was hoping that we could collaborate,Are you open to chatting about a collaboration?,Be to the point
+E0313,R0260,Let's see how the next few months pan out,I'm excited to see the progress in the next few months,Show you're in control
+E0314,R0261,Let's hope your venture is a success,We'll work together to make sure your venture is a success,Show you're in control
+E0315,R0262,Fingers crossed Q4 is different,Let's work together to make Q4 a success,Show you're in control
+E0316,R0263,We wanted to help you save time on manual tasks,You will save up to 2 hours a day on manual tasks,Focus on your reader's benefit
+E0317,R0264,How can we proceed?,Are there any open questions or are you ready to set up a call?,Show authority
+E0318,R0265,Our software digitizes manual tasks,It's an app for wholesalers to reduce their manual tasks,Be precise
+E0319,R0266,Please don't hesitate to reach out!,Will it help you to arrange a call to explain this for you?,Don't overuse 'Please'
+E0320,R0267,Can we send you more info?,Do you want to learn more about that?,Focus on your reader
+E0321,R0268,I was referred to your profile by my colleague,My colleague referred me to your profile,Avoid passive voice
+E0322,R0269,"We wanted to reduce electrical waste in landfill, hence our company was born",We reduce electrical waste in landfill,Avoid filler words
+E0323,R0270,I figured I would check in to see how you're getting on at your new job,Did you get to work on that project you were excited about at your new job?,Show conviction
+E0324,R0271,Let me know when works,Do you prefer this week or next?,Make a clear call-to-action
+E0325,R0272,"Regards, John","Thank you, John",Thank the reader
+E0326,R0272,"Best Regards, Larry","Thanks, Larry",Thank the reader
+E0327,R0272,Best Regards from the whole team,Thank you from the whole team,Thank the reader
+E0328,R0272,"Sincerely, Johanna","Thanks, Johanna",Thank the reader
+E0329,R0272,Kind regards from all of us,Thanks from all of us,Thank the reader
+E0330,R0272,Kind regards to you and the team,Huge thanks to you and the team,Thank the reader
+E0331,R0272,"Take care, Molly","Thank you, Molly",Thank the reader
+E0332,R0272,Cheers Lana,"Thanks, Lana",Thank the reader
+E0333,R0272,"Best wishes, Edward","Thanks, Edward",Thank the reader
+E0334,R0272,"Best, Jana","Thanks, Jana",Thank the reader
+E0335,R0272,"Sincerely yours, Harry","Thanks, Harry",Thank the reader
+E0336,R0272,"Sincerely yours, the whole Twain team",Thank you from the whole Twain team,Thank the reader
+E0337,R0272,"Very best, Fabian","Thank you, Fabian",Thank the reader
+E0338,R0273,How are you?,How was your holiday?,Avoid overused terms
+E0339,R0273,How are you doing?,Congratulations on your recent promotion,Avoid overused terms
+E0340,R0273,Sorry for my late response,Thank you for your thoughtful reply,Avoid overused terms
+E0341,R0273,Sorry for my late answer,Thank you for your feedback,Avoid overused terms
+E0342,R0273,I apologize if this isn't relevant for you,Is this relevant for you?,Avoid overused terms
+E0343,R0273,Apologies if new profiles aren't interesting for you,Are you interested in new profiles?,Avoid overused terms
+E0344,R0273,"Per your request, here is the document",Here is the document you asked for,Avoid overused terms
+E0345,R0273,"Per your request, I am forwarding the details",These are the details you requested,Avoid overused terms
+E0346,R0273,I am writing to you because I think you could benefit from our editing automatization tool,Is automating editing potentially beneficial for you?,Avoid overused terms
+E0347,R0273,I am writing to you because your profile might be a good fit for this design agency,Your experience in UX/UI design looks like a perfect match for this agency,Avoid overused terms
+E0348,R0273,Please advise on who is the best to speak to regarding hiring,Can you loop whoever is responsible for hiring into our conversation,Avoid overused terms
+E0349,R0273,Please advise on how we can proceed with collaboration,Is collaborating something you are interested in?,Avoid overused terms
+E0350,R0273,My name is Eric and I work for Apple,This is Eric writing to you from Apple,Avoid overused terms
+E0351,R0273,I work for lots of companies like yours to help them find the right profiles,Is help with finding the right profiles something you are interested in right now?,Avoid overused terms
+E0352,R0273,I want to reach out to show you the benefits of introducing a pricing solution, This is how introducing a pricing solution will help you,Avoid overused terms
+E0353,R0273,I wanted to reach out to see how things are going for you at Google, How are things going for you at Google?,Avoid overused terms
+E0354,R0273,I wanted to touch base to see how your first six months in the new position are going,  How have the first six months in your new position been?,Avoid overused terms
+E0355,R0273,I want to touch base to see if you're open to discuss how much you could save by changing your energy provider, Do you know how much you can save by switching energy provider?,Avoid overused terms
+E0356,R0273,Let's touch base in a week to see what your initial impression of the product was, Do you have time next week Tuesday or Wednesday to give your initial impression of the product?,Avoid overused terms
+E0357,R0273,"I wanted to introduce myself and our auto photo editing app, Fixer, which can edit images in seconds", Fixer is an automated photo editing app which edits any image in seconds,Avoid overused terms
+E0358,R0273,"Let me introduce myself, I am Greg and I am engineering an energy usage monitor to save businesses up to 20% on gas bills",Implementing energy-saving usage monitors throughout your business could save you 20% on your gas bill,Avoid overused terms
+E0359,R0273,I'm not trying to sell you anything,Do you have 30 seconds to decide whether this might be useful for you?,Avoid overused terms
+E0360,R0273,I'm not trying to sell you an insurance plan you don't need,78% of customers like you say they are glad they opted for this insurance plan,Avoid overused terms
+E0361,R0218,A lot of labor has been invested to create a great product,You can tell how much work was invested to create a great product,Use positive words
+E0362,R0218,There was a lot of toil in the development process,Toil was invested in the development process,Use positive words
+E0363,R0218,I appreciate you invested an awful lot of effort into the project ,I appreciate all the effort you invested into the project,Use positive words
+E0364,R0218,An awful lot of work goes into inputting monthly finances manually rather than automatically,Inputting finances automatically rather than manually reduces workload,Use positive words
+E0365,R0218,You'll save an awful lot of grinding by implementing the automization tool,You'll save yourself work by implementing the automization tool,Use positive words
+E0366,R0218,Creating new design iterations takes an awful lot of labor,Creating new design iterations is labor intensive,Use positive words
+E0367,R0218,An awful lot of toil has been reduced by implementing this method,Implementing this method reduces toil,Use positive words
+E0368,R0218,An awful lot of undertaking of tasks was needed to reach our goal on time,We were able to reach our goal on time by taking on multiple tasks,Use positive words
+E0369,R0218,With a bit of effort you will greatly increase revenue,You will increase revenue with minimal effort,Use positive words
+E0370,R0218,There's still a bit of work to be done,I am working on it,Use positive words
+E0371,R0218,A bit of grind is necessary to finish on time,I am grinding to finish on time,Use positive words
+E0372,R0218,A bit of labor goes a long way,The labor invested goes a long way,Use positive words
+E0373,R0218,A bit of toil will help increase profitability,With toil you will increase profitability,Use positive words
+E0374,R0218,A bit of undertaking from the team made reaching our targets possible,Reaching our targets was possible thanks to work undertaken by the team,Use positive words
+E0375,R0218,A considerable amount of effort goes into sourcing the right candidate,Sourcing the right candidate takes effort,Use positive words
+E0376,R0218,A considerable amount of work meant the final product was perfect,The final product was perfect thanks to all the work invested in it,Use positive words
+E0377,R0218,A considerable amount of grind has been put into my job search,My job search is taking a lot of grind,Use positive words
+E0378,R0218,The older model required a considerable amount of labor compared to the new model,The new model requires much less labor than the old model,Use positive words
+E0379,R0218,"After a considerable amount of toil, the newest feature is ready for release","After toiling on it for a while, the newest feature is ready for release",Use positive words
+E0380,R0218,A considerable amount of undertaking of tasks was needed to reach our goal on time,We were able to reach our goal on time by taking on multiple tasks,Use positive words
+E0381,R0218,We appreciate the hard work you put into the application,We appreciate the work you put into the application,Use positive words
+E0382,R0218,There is lots of hard grind involved to become a successful entrepreneur,There is lots of grind involved to become a successful entrepreneur,Use positive words
+E0383,R0218,The team did a lot of hard labor on the new design,The team did a lot of labor on the new design,Use positive words
+E0384,R0218,You can easily see a lot of hard work is involved in the process,You can easily see the process involves work,Use positive words
+E0385,R0218,A lot of hard grind on the final design paid off,The grinding on the final design paid off,Use positive words
+E0386,R0218,It takes a lot of hard labor to manage recruitment internally,It is easier to manage recruitment externally,Use positive words
+E0387,R0218,There is much effort involved in interviewing all candidates,Interviewing all candidates involves effort,Use positive words
+E0388,R0218,There is much work behind perfecting the finished product,Perfecting the finished product required work,Use positive words
+E0389,R0218,There is much grind involved in the process,The process involves grind,Use positive words
+E0390,R0218,The team has put in much labor to provide the new solution,The new solution is possible because of the team's labor,Use positive words
+E0391,R0218,Much toil is happening behind the scenes to complete the assignment,They are toiling behind the scenes to complete the assignment,Use positive words
+E0392,R0218,It will take plenty of effort to reach the funding goal,It will take effort to reach the funding goal,Use positive words
+E0393,R0218,There was plenty of work put in from every team member,Every team member put in work,Use positive words
+E0394,R0218,"With plenty of grind, the results will come",With grinding comes results,Use positive words
+E0395,R0218,"After plenty of labor, we will release the new version on Tuesday","After laboring for some time, we will release the new version on Tuesday",Use positive words
+E0396,R0218,Plenty of toil from the team made the launch a success,Toil from the team made the launch a success,Use positive words
+E0397,R0218,Many people think it takes too much effort to switch energy provider,Many people think switching energy provider isn't worth the effort,Use positive words
+E0398,R0218,I hope you aren't swamped with too much work,Are you able to manage your workload?,Use positive words
+E0399,R0218,That too much toil is involved in changing jobs is a misconception,Changing jobs is easier than most people think,Use positive words
+E0400,R0218,It will take too much labor to migrate to a new system right now,Migrating to a new system doesn't make sense right now,Use positive words
+E0401,R0218,It too much undertaking onboarding a complete junior,It will not be possible to onboard a complete junior,Use positive words
+E0402,R0218,Acme has been busy working on a new prototype ,Acme has been working on a new prototype,Use positive words
+E0403,R0218,Were you busy grinding away on your job search?,How is your job search going?,Use positive words
+E0404,R0218,The team is busy laboring away to hit the OKRs,The team is working to hit the OKRs,Use positive words
+E0405,R0218,We have been busy toiling on a special offer just for you,We have been creating a special offer just for you,Use positive words
+E0406,R0218,The engineering team is busy undertaking a new project,The engineering team is undertaking a new project,Use positive words
+E0407,R0218,Working a lot can lead to high stress levels,Reducing time spent working helps relieve stress,Use positive words
+E0408,R0218,Acme is grinding a lot to make sure we always have the best offer,Acme assures we always have the best offer,Use positive words
+E0409,R0218,The HR team is laboring a lot to make the event a success,The HR team is making sure the event is a success,Use positive words
+E0410,R0218,I am toiling a lot over the new design to make sure it's suitable,I am working on the new design to make sure it's suitable,Use positive words
+E0411,R0218,The team is undertaking a lot of tasks as the deadline is fast approaching,"Given the approaching deadline, the team has undertaken more tasks",Use positive words
+E0412,R0218,I can see you're working hard – the new model looks great,Your work is paying off - the new model looks great,Use positive words
+E0413,R0218,We are grinding hard to make a faster solution,We are working to find a faster solution,Use positive words
+E0414,R0218,We're already laboring hard on the next funding round ,We're already starting with the next funding round,Use positive words
+E0415,R0218,The design team is toiling hard to make a version which appeals to younger users,The design team is working on a version which appeals to younger users,Use positive words
+E0416,R0218,You are working too much – you deserve a break,"After all your work, you deserve a break",Use positive words
+E0417,R0218,We will be grinding too much to achieve such a tight deadline,The deadline must be extended to be achievable,Use positive words
+E0418,R0218,He labors too much over unimportant details,He can focus on more important details,Use positive words
+E0419,R0218,Are you toiling too much to pull off projects on time?,Will you benefit from reducing workload to pull off your projects on time?,Use positive words
+E0420,R0218,Are you undertaking too much work which could be outsourced?,Can you outsource work to reduce your own workload?,Use positive words
+E0421,R0146,Maybe you should try it yourself,Why not try it yourself?,Avoid 'Maybe'
+E0422,R0198,The future of the company is truly exciting,The future of the company is exciting,Avoid filler words
