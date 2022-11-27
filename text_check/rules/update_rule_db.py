@@ -9,6 +9,7 @@ This will run the github action to update the rule database in the github reposi
 # TODO: Compare the local rule database with the google sheets rule database. If there are changes then update the local rule database (rules.csv and examples.csv).
  
 import pandas as pd
+import os
 
 
 def download_from_google_sheets(sheet_id, sheet_name):
@@ -48,7 +49,8 @@ def main():
         files_changed = True
     else:
         files_changed = False
-    print(f"files_changed={files_changed} >> $GITHUB_OUTPUT")
+    with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+        print(f'files_changed={files_changed}', file=f)
 
 
 if __name__ == "__main__":
