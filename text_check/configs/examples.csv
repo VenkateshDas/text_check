@@ -1,7 +1,7 @@
 example_id,rule_id,wrong_text,correct_text,headline
 E0001,R0001,Would a profile like this be of interest to you??,Does a profile like this pique your interest?,Remove multiple punctuation marks
 E0002,R0003,I would like to show you the benefits we provide.,Are you interested in learning more about how you can benefit from us?,Avoid using the conditional
-E0003,R0011,Not many,Only few,Use positive words
+E0003,R0011,Not many,Only few changes,Use positive words
 E0004,R0012,Hope you're not too busy to talk,Do you have a minute to talk?,Use positive words
 E0005,R0013,I don't want to rush,Let's take it slow,Use positive words
 E0006,R0014,I don't want to bother you if you're not interested,Is this valuable for you?,Use positive words
