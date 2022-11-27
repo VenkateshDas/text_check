@@ -6,7 +6,6 @@ After making the necessary changes to rules.csv and examples.csv, the script wil
 This will run the github action to update the rule database in the github repository and create a pull request.
 '''
 
-# TODO: Connect to google sheets and download the latest rule database
 # TODO: Compare the local rule database with the google sheets rule database. If there are changes then update the local rule database (rules.csv and examples.csv).
  
 import pandas as pd
