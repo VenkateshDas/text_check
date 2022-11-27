@@ -38,8 +38,8 @@ def main():
     examples_sheet_name = "rule_examples_v2"
     new_rules_df = download_from_google_sheets(sheet_id, rules_sheet_name)
     new_examples_df = download_from_google_sheets(sheet_id, examples_sheet_name)
-    old_rules_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/rules.csv")
-    old_examples_df = pd.read_csv("/Users/venkateshmurugadas/text_check/text_check/configs/examples.csv")
+    old_rules_df = pd.read_csv("text_check/configs/rules.csv")
+    old_examples_df = pd.read_csv("text_check/configs/examples.csv")
     # compare rules df
     is_rules_updated = update_df(old_rules_df, new_rules_df, "text_check/configs/rules.csv")
     # compare examples df
