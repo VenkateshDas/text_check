@@ -2,16 +2,16 @@
 # This workflow is triggered on a schedule
 # The workflow will run the update_rule_db.py script
 # If there are files modified, then it will create a PR with the changes using the Create Pull Request action
-name: Update Rule Database
+name: Update Rule Database Every 10 Minutes
 on:
-  # schedule:
-  #   - cron:  '*/5 * * * *'
-  push:
-    branches:
-        - 'main'
-  pull_request:
-    branches:
-        - 'main'
+  schedule:
+    - cron:  '*/10 * * * *'
+  # push:
+  #   branches:
+  #       - 'main'
+  # pull_request:
+  #   branches:
+  #       - 'main'
 
 jobs:
   update_rule_db:
