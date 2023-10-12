@@ -4,7 +4,7 @@ FROM python:3.9
 WORKDIR /src
 
 # Install dependencies
-COPY requirements.txt /src/requirements.txt
+COPY requirements-freeze.txt /src/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 # Expose port

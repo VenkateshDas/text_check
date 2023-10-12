@@ -4,7 +4,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Install dependencies
-COPY requirements.txt /app/requirements.txt
+COPY requirements-freeze.txt /app/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 ## Add the wait script to the image
